@@ -10,13 +10,6 @@ from keras.optimizers import RMSprop
 from flask import Flask, jsonify, request, send_file
 from music21 import *
 
-print("choese categore")
-print("hiphop                 piano")
-print("pop                    j-pop")
-print("pokemon           beethoven")
-print("chopin       ")
-#x= input()
-print("Waiting time: 3 minutes")
 
 app = Flask(__name__)
 
